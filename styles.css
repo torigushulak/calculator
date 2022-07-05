@@ -1,0 +1,12 @@
+
+.wrapper {
+    height: 50px;
+    width :30px;
+    padding: 4px;
+    background-color: grey;
+}
+
+.buttons{
+    text-align: center;
+    
+}
