@@ -1,12 +1,96 @@
+* {
+    background-color: lightgrey;
+    align-items: center;
+}
 
 .wrapper {
-    height: 50px;
-    width :30px;
+    height: 405px;
+    width :280px;
     padding: 4px;
+    background-color: grey;
+    border: 2px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px black;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#numbers {
+    border: 1px black;
+    padding-left: 40px;
+    background-color: white;
+    margin: 10px;
+    height: 60px;
+    width: 210px;
+    text-align: end;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: larger;
+}
+p {
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.row1 {
+    text-align: center;
+    padding: 5px;
     background-color: grey;
 }
 
-.buttons{
+.row2 {
     text-align: center;
-    
+    padding: 5px;
+    background-color: grey;
 }
+.row3 {
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+}
+.row4 {
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+}
+.row5 {
+    text-align: center;
+    background-color: grey;
+}
+
+
+#clear {
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px, black;
+}
+#delete {
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px, black;
+}
+
+button {
+    border: 1px, black;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 3px;
+}
+
+

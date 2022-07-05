@@ -18,7 +18,7 @@ function divide(num1, num2){
     return total;
 }
 
-function operate(operator, num1, num2){
+function operate(num1, operator, num2){
     if (operator == 'add'){
         add(num1, num2);
     } else if(operator == 'subtract'){
@@ -30,3 +30,10 @@ function operate(operator, num1, num2){
     } return "ERROR";
 }
 
+const showOnScreen = document.getElementById('p')
+
+showOnScreen.insertAdjacentText()
+
+function showNumbers(){
+    
+}
