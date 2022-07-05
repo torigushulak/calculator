@@ -30,10 +30,23 @@ function operate(num1, operator, num2){
     } return "ERROR";
 }
 
-const showOnScreen = document.getElementById('p')
 
-showOnScreen.insertAdjacentText()
+// showOnScreen.insertAdjacentText()
 
-function showNumbers(){
-    
+
+const para = document.getElementById('para')
+
+function appendNumber(number) {
+    para.insertAdjacentText(`beforeend`,number);
+    // append to paragraph here
+}
+
+function clear(){
+    document.location.reload();
+}
+
+function deletE (){
+    para.textContent.toString()
+    let num = para.textContent.slice(0,-1);
+    appendNumber(num);
 }
