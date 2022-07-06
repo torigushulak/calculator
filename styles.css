@@ -29,10 +29,16 @@
     margin-top: 10px;
     font-size: larger;
 }
-p {
+#para {
     border-radius: 5px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
+    background-color: white;
+}
+#num1 {
+    border-radius: 5px;
+    /* text-align: center; */
+    padding-top: 0px;
     background-color: white;
 }
 

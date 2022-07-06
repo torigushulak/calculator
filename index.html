@@ -12,11 +12,12 @@
     <div class="wrapper">
         
             <div id="numbers">
+                <p id="num1"></p>
                 <p id="para"></p>
             </div>
         
         <div class="row1">
-            <button id="clear" onclick="clear()">CLEAR</button>
+            <button id="clear" onclick="location.reload()">CLEAR</button>
             <button id="delete" onclick="deletE()">DELETE</button>
         </div>
 
@@ -27,28 +28,28 @@
             <button id="n7" onclick="appendNumber(7)">7</button>
             <button id="n8" onclick="appendNumber(8)">8</button>
             <button id="n9" onclick="appendNumber(9)">9</button>
-            <button id="divide">÷</button>
+            <button id="divide" onclick="storeNum1('divide')">÷</button>
         </div>
         
         <div class="row3">
             <button id="n4" onclick="appendNumber(4)">4</button>
             <button id="n5" onclick="appendNumber(5)">5</button>
             <button id="n6" onclick="appendNumber(6)">6</button>
-            <button id="multiply">x</button>
+            <button id="multiply" onclick="storeNum1('multiply')">x</button>
         </div>
         
         <div class="row4">
             <button id="n1" onclick="appendNumber(1)">1</button>
             <button id="n2" onclick="appendNumber(2)">2</button>
             <button id="n3" onclick="appendNumber(3)">3</button>
-            <button id="subtract">-</button>
+            <button id="subtract" onclick="storeNum1('subtract')">-</button>
         </div>
 
         <div class="row5">
-            <button id="point" >.</button>
+            <button id="point" onclick="point()">.</button>
             <button id="n0" onclick="appendNumber(0)">0</button>
-            <button id="equals">=</button>
-            <button id="add">+</button>
+            <button id="equals" onclick="equals()">=</button>
+            <button id="add" onclick="storeNum1('add')">+</button>
         </div>
     </div>
 
