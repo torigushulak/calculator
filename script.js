@@ -1,5 +1,7 @@
 function add(num1, num2){
-    let total = num1 + num2;
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+    let total = num1 += num2;
     return total;
 }
 
@@ -10,11 +12,13 @@ function subtract(num1, num2){
 
 function multiply(num1, num2){
     let total = num1 * num2;
+    Math.round(total * 100) / 100;
     return total;
 }
 
 function divide(num1, num2){
     let total = num1 / num2;
+    Math.round(total * 100) / 100;
     return total;
 }
 
@@ -34,7 +38,6 @@ function deletE (){
     para.textContent = "";
     appendNumber(num);
 }
-
 
 function point(){
     para.textContent.toString();
